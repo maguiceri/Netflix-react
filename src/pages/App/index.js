@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
-import Coverpage from '../../components/Coverpage/Coverpage';
+import Navbar from '../../components/Navbar';
+import Coverpage from '../../components/Coverpage';
 import '../../base/reset.scss';
 
 class App extends React.Component {
