@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.coverPage{
+    background-image:url("../../base/img/breakingbad04.png");
+    background-size:cover;
+    height: 53rem;
+    width: 100%;  
+    .page{
+        margin-left:4rem;
+        display:flex;
+        flex-direction: column;
+        .text{
+            display:flex;
+            display:inline-block;
+            margin-top:3rem;
+            margin-bottom: 2rem;
+            text-align:start;
+            color: #FFFFFF;
+            width: 100%;
+            max-width:50%;
+           
+            .im{
+                width: 21.56rem;
+                height: 21.56rem;
+            }
+            .statistics{
+                display:inline-block;
+                font-size: 1rem;
+                margin-bottom:1rem;   
+                .coincidence{
+                    margin-right: 1rem;
+                    font-weight: 700;
+                    color: #009C04;
+                }
+                .year{
+                    margin-right: 1rem;
+                    font-weight: 400;
+                }
+                .adult{
+                    margin-right: 1rem;
+                    font-weight: 400;
+                    display:inline-block;
+                    padding:0.3rem 0.5rem;
+                    border: 1px solid white;
+                    border-radius: 8px;
+                    
+                }
+                .season{
+                    font-weight: 700;
+                    color: #FFFFFF;
+                    white-space: nowrap; 
+                    
+                }
+            }
+
+            .buttons{
+                display:inline-block;  
+                display:flex;
+                font-weight: 400;
+                margin-bottom: 1rem;
+                .play{
+                    color:white;
+                    font-size: 1.4rem;
+                    background: #ED0A1D;
+                    border:none;
+                    border-radius: 9px;
+                    padding:1rem; 
+                    margin-right:1rem;
+                    width:10rem;
+                    text-align:center;                  
+                }
+                .list{
+                    text-decoration: none;
+                    color:white;
+                    font-size: 1.4rem;
+                    background: rgba(157, 151, 151, 0.541521);
+                    border-radius: 9px;
+                    padding:1rem; 
+                    width:10rem;
+                    text-align:center;
+                    white-space: nowrap; 
+                }
+                .hand{
+                    margin-left: 1rem;
+                }
+            }
+            .description{
+                font-weight: 400;
+                line-height: 25px;
+            }
+
+        }
+    } 
+    
+}

@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar';
 import Coverpage from '../../components/Coverpage';
 import '../../base/reset.scss';
 
+
 class App extends React.Component {
   render() {
     return(

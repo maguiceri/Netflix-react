@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
-
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import Breaking from './pages/breaking';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   
+    <Router>
+      <Route exact path="/" component={App}></Route>
+      <Route exact path="/breaking" component={Breaking}></Route>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

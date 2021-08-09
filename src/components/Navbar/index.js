@@ -1,9 +1,14 @@
 import React from "react";
 import './styles.scss';
 import Bitmap from '../../base/img/Bitmap.png';
+import { Link } from "react-router-dom";
+
+
 class Navbar extends React.Component{
     render(){
         return(
+        <>
+        < Link to="/breaking">
         <nav className="bar-words">
             <img src={Bitmap}></img>
             <ul className="words">
@@ -14,6 +19,8 @@ class Navbar extends React.Component{
                 <li className="link-wrapper"><a className="word" href="#">Mi lista</a></li>
             </ul>
         </nav> 
+        </Link>
+        </>
         )
     }
 }
